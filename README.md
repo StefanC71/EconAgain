@@ -1,2 +1,0 @@
-# StefanEcon
- Stefan Tests
