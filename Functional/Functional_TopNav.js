@@ -1,3 +1,5 @@
+//tests all 5 links in the top nav
+
 import { t } from 'testcafe';
 import page from '../page-model';
 import {Selector} from 'testcafe';
