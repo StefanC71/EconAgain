@@ -10,7 +10,7 @@ const dataset = require ('../navBarData.json');
 fixture `Functional Test - Nav Bar Links`
     .meta({type: "functional"})
     .page `https://jobs.economist.com/`
-    //test
+    
     //loops through the topnav dataset and performs the following test for each row
     dataset.forEach(data => {
         
