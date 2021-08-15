@@ -1,0 +1,7 @@
+.vscode/
+node_modules/
+.testcaferc.json
+reports/
+package.json
+package-lock.json
+Functional.html
