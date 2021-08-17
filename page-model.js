@@ -13,6 +13,14 @@ class Page {
         this.topNavSearchRecruiters = Selector('#primary-nav > div > ul > li.togglable-nav__item.primary-nav__item.primary-nav__item--recruiters > a');
         this.topNavJobsBlog = Selector('#primary-nav > div > ul > li.togglable-nav__item.primary-nav__item.primary-nav__item--careers-advice.togglable-nav__item--last.primary-nav__item--last > a');
         
+        //jobsector page
+        this.viewDetailsButtonContainer = Selector('.lister__footer.cf > p > a');
+
+        //individual job listing page
+        this.sectorNameContainer = Selector('.job-detail-description__category-Sector > dd > a');
+        this.applyButton = Selector('#main > div > div > div.grid > div.grid-item.four-fifths.lap-one-whole.palm-one-whole > div > div.grid-item.seven-twelfths.palm-one-whole > div:nth-child(1) > ul > li.job-actions__action.job-actions__action--applylink > a');
+        this.goBackSearch= Selector('#main > div > div > div.job-pagination > ul > li.job-pagination__item.job-pagination__item--search > span > a > span');
+
         //Sign In / Create Account Page
         this.signInHeader = Selector('#main > div > div > div.grid-item.five-sixths.lap-one-whole.palm-one-whole > div > div:nth-child(1) > h1');
         this.createAccountHeader = Selector('#create-account');
