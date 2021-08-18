@@ -13,6 +13,11 @@ class Page {
         this.topNavSearchRecruiters = Selector('#primary-nav > div > ul > li.togglable-nav__item.primary-nav__item.primary-nav__item--recruiters > a');
         this.topNavJobsBlog = Selector('#primary-nav > div > ul > li.togglable-nav__item.primary-nav__item.primary-nav__item--careers-advice.togglable-nav__item--last.primary-nav__item--last > a');
         
+        //job page job search fields
+        this.jobType = Selector('#keywords');
+        this.jobLocation = Selector('#location');
+        this.search = Selector('#main > div.band.band--primary.band--primary--second.cf > div > section > div > div > form > fieldset > div.grid-item.two-twelfths.lap-one-quarter.portable-one-whole.palm-one-whole > div > input');
+        
         //jobsector page
         this.viewDetailsButtonContainer = Selector('.lister__footer.cf > p > a');
 

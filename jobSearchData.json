@@ -1,0 +1,10 @@
+[
+    { "jobTypeInput": "Advisor", "locationInput": "UK" },
+    { "jobTypeInput": "Analyst", "locationInput": "London (Greater) (GB)" },
+    { "jobTypeInput": "Finance Manager", "locationInput": "New York (US)" },
+    { "jobTypeInput": "Chief Executive Officer", "locationInput": "uk" },
+    { "jobTypeInput": "Developer", "locationInput": "London (Greater) (GB)" },
+    { "jobTypeInput": "Developer", "locationInput": "Africa" },
+    { "jobTypeInput": "Executive", "locationInput": "Ireland (IE)" }
+    
+]    
