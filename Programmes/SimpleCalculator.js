@@ -92,5 +92,5 @@ function enterFirstNumber(){
 enterFirstNumber();
 
         //Closes transmitting so the process does not remain idle
-        //rl.close();
+        rl.close();
 
