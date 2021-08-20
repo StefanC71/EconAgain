@@ -123,7 +123,7 @@ To run this while in the Econ folder, use the following command:
 node ./Programmes/SimpleCalculator.js
 
 ##Unit Testing:
-Holds the simpleCald.js file with the mathematical functions
+Holds the simpleCalc.js file with the mathematical functions
 Holds the simpleCalc.test.js file with the tests
 
 While in the unitTesting folder, run the following command
