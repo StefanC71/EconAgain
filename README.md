@@ -39,7 +39,7 @@ The tests / programmes are organised into the following folders within the githu
 
 Main Econ Folder
 Contains the page-model.js file which holds all of the selectors used within the tests
-Contains the navBarData.json file which is the dataset used for the navigation bar test
+Contains the navBarAndFooterData.json file which is the dataset used for the navigation bar test
 Contains the jobSectorsData.json file which is the dataset for checking the correct jobs appear on the correct pages
 Contains the jobSearchData.json file which is the dataset for typing in manual searches
 
@@ -82,7 +82,7 @@ To run individual tests while in the Econ folder:
 testcafe chrome ./Functional/Functional_xxx --skip-js-errors --reporter html:Report_Name.html
 
 Replace xxx with any of the following tests
-TopNav.js
+TopNavAndFooter.js
 SignIn_CreateAccount.js
 SectorListings.js
 JobSearch.js
