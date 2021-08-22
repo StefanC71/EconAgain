@@ -1,8 +1,0 @@
-[
-    { "linkName": "Home", "linkSelector": "#primary-nav > div > ul > li.togglable-nav__item.primary-nav__item.primary-nav__item--first.primary-nav__item--home.primary-nav__item--active > a", "newPageSelector": "#main > div.band.band--primary.band--primary--third.cf > div > section > div > h2 > span", "textToFind": "Browse jobs by Sector" },
-    { "linkName": "Find_Job", "linkSelector": "#primary-nav > div > ul > li.togglable-nav__item.primary-nav__item.primary-nav__item--find-a-job > a", "newPageSelector": "#main > div > div:nth-child(1) > h1", "textToFind": "Found" },
-    { "linkName": "Job_Alerts", "linkSelector": "#primary-nav > div > ul > li.togglable-nav__item.primary-nav__item.primary-nav__item--jbe > a", "newPageSelector": "#main > div > div > div.mds-grid-col-12.mds-grid-col-lg-9 > div > div > div > h1", "textToFind": "Create a job alert" },
-    { "linkName": "Search_Recruiters", "linkSelector": "#primary-nav > div > ul > li.togglable-nav__item.primary-nav__item.primary-nav__item--recruiters > a", "newPageSelector": "#main > div > h1", "textToFind": "Search Recruiters" },
-    { "linkName": "Jobs_Blog", "linkSelector": "#primary-nav > div > ul > li.togglable-nav__item.primary-nav__item.primary-nav__item--careers-advice.togglable-nav__item--last.primary-nav__item--last > a", "newPageSelector": "#main > div > div.mds-margin-bottom-b5 > h1", "textToFind": "Search Articles" }
-    
-]    

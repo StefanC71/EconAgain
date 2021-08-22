@@ -1,11 +1,11 @@
-//tests all 5 links in the top nav
+//tests all 5 links in the top nav and 5 in the footer
 
 import { t } from 'testcafe';
 import page from '../page-model';
 import {Selector} from 'testcafe';
 
 //reads the topnav dataset fields
-const dataset = require ('../navBarData.json');
+const dataset = require ('../navBarAndFooterData.json');
 
 fixture `Functional Test - Nav Bar Links`
     .meta({type: "functional"})
