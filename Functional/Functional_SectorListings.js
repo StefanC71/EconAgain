@@ -10,6 +10,16 @@ import {Selector} from 'testcafe';
 //reads the jobSectors dataset fields
 const dataset = require ('../jobSectorsData.json');
 
+/*In test i discovered the <search button to go back a page from a job listing
+sometime appears in 2 dfferent places, or does not appear at all.
+
+Initially I clicked this button, but after finding it may not even exist, i decided to 
+use testcafe inbuilt functionality to go back a page
+This import and const sets up the functionality
+*/
+import { ClientFunction } from 'testcafe';
+const getLocation = ClientFunction(() => window.location.href);
+
 fixture `Click on a sector and display jobs`
     .meta({type: "functional"})
     .page `https://jobs.economist.com/`
@@ -37,10 +47,12 @@ fixture `Click on a sector and display jobs`
           await t.expect(Selector(page.sectorNameContainer).withText(data.sectorNameText).exists).ok();
           
           //looks for the Apply button to ensure it exists
+          //used the container here as the apply button also had 2 possible selectors
           await t.expect(Selector(page.applyButton).withText('Apply').exists).ok();
-
-          //clicks the <search button to go back to the job listings page ready for the next iteration
-          await t.click(page.goBackSearch);
+        
+          //uses the inbuilt testcafe functionality to go back a page ready for the next iteration
+          const goBack = ClientFunction(() => window.history.back());
+          await goBack();
         }
           
       });   

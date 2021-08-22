@@ -23,7 +23,7 @@ class Page {
 
         //individual job listing page
         this.sectorNameContainer = Selector('.job-detail-description__category-Sector > dd > a');
-        this.applyButton = Selector('#main > div > div > div.grid > div.grid-item.four-fifths.lap-one-whole.palm-one-whole > div > div.grid-item.seven-twelfths.palm-one-whole > div:nth-child(1) > ul > li.job-actions__action.job-actions__action--applylink > a');
+        this.applyButton = Selector('.job-actions__action--applylink > a');                      
         this.goBackSearch= Selector('#main > div > div > div.job-pagination > ul > li.job-pagination__item.job-pagination__item--search > span > a > span');
 
         //Sign In / Create Account Page
